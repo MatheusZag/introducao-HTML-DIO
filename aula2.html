@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML na prática</title>
+
+    <link rel="shortcut icon" href="./imagens/ícone html.png" type="image/x-icon">
+
+</head>
+<body style="background-color:rgb(0, 0, 0)">
+    <header>
+        <p><a href="./index.html"><img width="30" src="./imagens/voltar.png"></a></p>
+        <center>
+        <img width="100" src="./imagens/ícone html.png" alt="Logo HTML">
+        <h1 id="title"> <strong style="color:rgb(255, 87, 36)">Introdução ao HTML na prática</strong></h1>
+        </center>
+    </header>
+    <p style="color:rgb(255, 255, 255)">
+        Nessa aula aprenderemos mais sobre a estrutura de um código <i>HTML</i> e como começar a desenvolver uma página.
+    </p>
+    <h2 style="color:rgb(255, 87, 36)">Tópicos</h2>
+    <ul>
+        <li><a href="#estrutura" style="color:rgb(255, 160, 82)">Estrutura básica do <i>HTML</i></a></li>
+        <li><a href="#tags" style="color:rgb(255, 160, 82)">Tags e seus atributos</a></li>
+    </ul>
+
+    <h3 style="color:rgb(255, 87, 36)" id="estrutura">Estrutura básica do <i>HTML</i></h3>
+    <p style="color:rgb(255, 255, 255)"> A estrutura Básica do <i>HTML</i> consite em 3 tags principais, que são:</p>
+    <h4 style="color:rgb(255, 87, 36)">< html >...< /html ></h4>
+    <p style="color:rgb(255, 255, 255)">É a Tag que identifica o início e o fim do documento, tudo dentro dela será lido e executado.</p>
+    <h4 style="color:rgb(255, 87, 36)">< head >...< /head ></h4>
+    <p style="color:rgb(255, 255, 255)">Tudo dentro dessa tag é executado em segundo plano, ou seja, não é mostrado na tela principal, como parâmetros de linguagem e outras coisas. Ou seja, é a "mente" do nosso código.</p>
+    <h4 style="color:rgb(255, 87, 36)">< body >...< /body ></h4>
+    <p style="color:rgb(255, 255, 255)">É aqui que é escrito toda a estrutura do site e como será mostrado na tela, tudo escrito aqui aparece para o usuário, ou seja, o "corpo" do código.</p>
+    <img src="./imagens/HTML.png" width="250" alt="Estrutura HTML">
+
+    <h3 style="color:rgb(255, 87, 36)" id="tags">Tags e seus atributos</h3>
+    <p style="color:rgb(255, 255, 255)"> Aqui eu irei falar sobre as principais Tags que usei para construir esse site.</p>
+
+    <h4 style="color:rgb(255, 87, 36)">< h1 > < h2 > < h3 > < h4 > < h5 > </h4>
+    <p style="color:rgb(255, 255, 255)"> São tags usadas para definir diferentes níveis de título, de acordo com a formatação.</p>
+    <ul style="color:rgb(255, 255, 255)">
+        <li><h1>< h1> </h1></li>
+        <li><h2>< h2> </h2></li>
+        <li><h3>< h3> </h3></li>
+        <li><h4>< h4> </h4></li>
+        <li><h5>< h5> </h5></li>
+    </ul>
+
+    <h4 style="color:rgb(255, 87, 36)">< p >...< /p ></h4>
+    <p style="color:rgb(255, 255, 255)">É a tag que serve para escrever textos, exatamente como esse.</p>
+
+    <h4 style="color:rgb(255, 87, 36)"> < ul >, < ol > e < li ></h4>
+    <p style="color:rgb(255, 255, 255)"> UL significa <abbr title="Lista não Ordenada">Unordered List</abbr>, ou seja, uma lista em que não mostra a numeração dos elementos, enquanto que OL significa <abbr title="Lista Ordenada">Ordered List</abbr>, que é uma lista em que é mostrada uma ordem dos elementos. LI é uma tag que aparece dentro das listas, é ela que define cada elemento da lista, não importando se ela é ordenada ou não.</p>
+
+    <h5 style="color:rgb(255, 255, 255)"><strong>UL</strong></h5>
+    <ul style="color:rgb(255, 255, 255)">
+        <li>Exemplo</li>
+        <li>De</li>
+        <li>Lista</li>
+        <li>Não ordenada</li>
+    </ul>
+
+    <h5 style="color:rgb(255, 255, 255)"><strong>OL</strong></h5>
+    <ol style="color:rgb(255, 255, 255)">
+        <li>Exemplo</li>
+        <li>De</li>
+        <li>Lista</li>
+        <li>Ordenada</li>
+    </ol>
+
+    <h4 style="color:rgb(255, 87, 36)">< img ></h4>
+    <p style="color:rgb(255, 255, 255)">É a tag que serve para inserir imagens dentro de um código <i>HTML</i></p>
+
+    <h4 style="color:rgb(255, 87, 36)">< a ></h4>
+    <p style="color:rgb(255, 255, 255)"> Tag usada para inserir links na página</p>
+    <p><a href="./index.html" style="color:rgb(255, 160, 82)">Clique aqui para voltar ao Índice</a></p>
+    
+    <h4 style="color:rgb(255, 87, 36)"> < strong > e < i ></h4>
+    <p style="color:rgb(255, 255, 255)">São tags de formatação de texto, que servem para deixar o texto em <strong>Negrito (< strong >)</strong> e <i>Itálico < I ></i>, também podem ser combinadas <strong><i>dessa forma</i></strong>.</p>
+
+    <h3 style="color:rgb(255, 87, 36)">Atributos</h3>
+    <p style="color:rgb(255, 255, 255)">Atributos são propriedades que uma Tag pode ter, e são escritos dentro da abertura da tag < tag atributo="valor da propriedade" >. Alguns exemplos de atributos são:</p>
+    <ul style="color:rgb(255, 255, 255)">
+        <li>Width - Tag que define a largura de um elemento (geralmente de uma imagem).</li>
+        <li>Height - Tag que define a Altura de um elemento (geralmente de uma imagem).</li>
+        <li>Src - Tag usada para definir o caminho de um elemento dentro do código.</li>
+        <li>Href - Define o caminho de um link dentro da Tag < a >. </li>
+        <li>Alt - Usada para descrever uma imagem, para entendimento de leitores de tela ou para caso a imagem não carregue.</li>
+        <li>Style - Tag de CSS, que pode ser usada diretamente dentro do <i>HTML</i>, para estilizar coisas como cores e tamanhos dos elementos da página.</li>
+    </ul>
+
+    <p style="color:rgb(255, 255, 255)">Existem muitas outras Tags e atributos, porém essas foram as principais para a criação desse site.</p>
+</body>
+</html>
